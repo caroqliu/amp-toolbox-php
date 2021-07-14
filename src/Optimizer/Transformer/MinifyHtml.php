@@ -2,7 +2,7 @@
 
 namespace AmpProject\Optimizer\Transformer;
 
-use AmpProject\Attribute;
+use AmpProject\Html\Attribute;
 use AmpProject\Dom\Document;
 use AmpProject\Dom\Element;
 use AmpProject\Optimizer\Configuration\MinifyHtmlConfiguration;
@@ -10,7 +10,7 @@ use AmpProject\Optimizer\Error\InvalidJson;
 use AmpProject\Optimizer\ErrorCollection;
 use AmpProject\Optimizer\Transformer;
 use AmpProject\Optimizer\TransformerConfiguration;
-use AmpProject\Tag;
+use AmpProject\Html\Tag;
 use DOMComment;
 use DOMNode;
 use DOMText;
